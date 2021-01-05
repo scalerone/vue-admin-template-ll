@@ -23,7 +23,7 @@
 </p>
 
 
-**目前版本基于 `webpack 4.0+` 和 `vue-cli 3.x` 版本构建，需要 [Node.js](https://nodejs.org/) 8.9 或更高版本（推荐 8.11.0+），相关知识可以自行进官网进行了解**
+**目前版本基于 `webpack 4.0+` 和 `vue-cli 4.x` 版本构建，需要 [Node.js](https://nodejs.org/) 8.9 或更高版本（推荐 8.11.0+），相关知识可以自行进官网进行了解**
 
 ## 快速开始
 
@@ -34,12 +34,16 @@
 ### 安装
 
 ```
-# 克隆项目
-git clone git@github.com:scalerone/vue-admin-ll.git
+# 使用脚手架进行安装
+bern init projName
+
+# 或者克隆项目
+git clone git@github.com:scalerone/vue-admin-template-ll.git
 
 # 进入项目目录
-cd vue-admin-ll
-
+cd vue-admin-template-ll
+要修改package.json
+去掉模板字符串括号
 # 安装依赖
 npm install
 

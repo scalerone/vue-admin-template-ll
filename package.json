@@ -1,7 +1,9 @@
 {
-  "name": "vue-admin-llw",
-  "version": "0.1.0",
+  "name": "{{name}}",
+  "version": "{{version}}",
   "private": true,
+  "keywords": [],
+  "author": "{{ author }}",
   "scripts": {
     "serve": "vue-cli-service serve --host 0.0.0.0",
     "build": "vue-cli-service build",
@@ -9,7 +11,9 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
+    {{#if isAxios}}
     "axios": "^0.18.1",
+    {{/if}}
     "core-js": "^2.6.5",
     "date-and-time": "^0.14.2",
     "driver.js": "^0.9.7",
@@ -20,9 +24,13 @@
     "screenfull": "^4.2.0",
     "vue": "^2.6.10",
     "vue-count-to": "^1.0.13",
+    {{#if isVueRouter}}
     "vue-router": "^3.0.3",
+    {{/if}}
     "vuedraggable": "^2.24.1",
+    {{#if isVuex}}
     "vuex": "^3.0.1",
+    {{/if}}
     "xlsx": "^0.14.4"
   },
   "devDependencies": {
