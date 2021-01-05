@@ -1,0 +1,44 @@
+{
+  "id": "2022742",
+  "name": "量励",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16710195",
+      "name": "分摊设置",
+      "font_class": "fentanshezhi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "16710196",
+      "name": "决策分析",
+      "font_class": "juecefenxi",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "16710197",
+      "name": "计算结果检查",
+      "font_class": "jisuanjieguojiancha",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "16710198",
+      "name": "成本计算",
+      "font_class": "chengbenjisuan",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "16710199",
+      "name": "基础数据管理",
+      "font_class": "jichushujuguanli",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}
